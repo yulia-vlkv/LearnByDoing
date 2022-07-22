@@ -11,6 +11,7 @@
 		EFB31E6B288A9F1700374633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB31E6A288A9F1700374633 /* ContentView.swift */; };
 		EFB31E6D288A9F1700374633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB31E6C288A9F1700374633 /* Assets.xcassets */; };
 		EFB31E70288A9F1700374633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB31E6F288A9F1700374633 /* Preview Assets.xcassets */; };
+		EFB31E7A288AA4D700374633 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB31E79288AA4D700374633 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		EFB31E6A288A9F1700374633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFB31E6C288A9F1700374633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB31E6F288A9F1700374633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFB31E76288AA08500374633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EFB31E79288AA4D700374633 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		EFB31E67288A9F1700374633 /* LearnByDoing */ = {
 			isa = PBXGroup;
 			children = (
+				EFB31E76288AA08500374633 /* Info.plist */,
 				EFB31E68288A9F1700374633 /* LearnByDoingApp.swift */,
 				EFB31E6A288A9F1700374633 /* ContentView.swift */,
 				EFB31E6C288A9F1700374633 /* Assets.xcassets */,
 				EFB31E6E288A9F1700374633 /* Preview Content */,
+				EFB31E79288AA4D700374633 /* CardView.swift */,
 			);
 			path = LearnByDoing;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB31E6B288A9F1700374633 /* ContentView.swift in Sources */,
+				EFB31E7A288AA4D700374633 /* CardView.swift in Sources */,
 				EFB31E69288A9F1700374633 /* LearnByDoingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +276,9 @@
 				DEVELOPMENT_TEAM = A38548G3Y3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnByDoing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +305,9 @@
 				DEVELOPMENT_TEAM = A38548G3Y3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnByDoing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
